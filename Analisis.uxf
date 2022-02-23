@@ -1,7 +1,30 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>120</x><y>170</y><w>210</w><h>70</h></coordinates><panel_attributes>_object: Class_
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>367</x><y>260</y><w>410</w><h>150</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+Usuario administrativo (empresa) 
 --
-id: Long="36548"
-[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>110</y><w>210</w><h>70</h></coordinates><panel_attributes>_object: Class_
+-Base de Datos: float almacenamiento
+-Asignar Servicios: String Servicio
 --
-id: Long="36548"
-[waiting for message]</panel_attributes><additional_attributes></additional_attributes></element></diagram>
++Permitir interacción entre usuarios: String Asignar()
++Calcular los pagos de los conductores: float Calculo pago conductor()
++Calcular descuentos de los conductores: float calc descuento()
++Calcular calificación promedio de los conductores: float calc calificacion()
++Asignar bonificación a los conductores: float bonificacion()
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>807</x><y>100</y><w>210</w><h>120</h></coordinates><panel_attributes>Pasajeros
+--
+-Registrarse en la APP: String Registro
+-Solicitar servicio: Int Solicitar
+-Pagar servicio (Efectivo / Tarjeta): float Pago tarjeta
+-Pago efectivo: float pago efectivo
+--
++Calificar servicio 
++Reportar problema</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>69</x><y>460</y><w>270</w><h>120</h></coordinates><panel_attributes>Conductores
+--
+-Cambiar disponibilidad: String Disponibilidad
+-Aceptar/Declinar un servicio: Int Aceptar/declinar
+--
+-Cobrar servicio: Float cobrar
+-Calificar pasajero: Int Calificar
+-Reportar forma de pago: String Reportar
+-Cobrar a fin de mes: Float CobroMes
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>328</x><y>400</y><w>70</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;60;41;10</additional_attributes></element><element><id>Relation</id><coordinates><x>769</x><y>210</y><w>60</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>40;10;10;50</additional_attributes></element></diagram>
